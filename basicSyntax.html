@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Learn Jquery</title>
+
+    <style>
+        p{
+            margin: 0;
+        }
+        h3{ margin:  0, 0, 5px;}
+
+        #test1{
+            display: inline-block;
+            background-color: pink;
+            width: 200px;
+            height: 150px;
+            padding: 10px 10px;
+            margin: 0, 50px, 0,0;
+        }
+        #test2{
+            display: inline-block;
+            background-color: rgb(241, 255, 192);
+            width: 200px;
+            height: 150px;
+            padding: 10px 10px;
+            margin: 0, 50px, 0,0;
+        }
+    </style>
+	
+</head>
+<body>
+
+    <h1>Learn Jquery With Shamim</h1>
+    <div id="test1">
+        <h3>Hello1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quaerat.</p>
+    </div>
+
+    <div id="test2">
+        <h3>Hello2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quaerat.</p>
+    </div>
+    <script src="./jquery.js"></script>
+<script >
+$(document).ready(function(){
+  
+
+    // console.log("Hello");
+
+    var a = $('#test1').html();
+    console.log(a);
+
+    var b = $('#test2').html();
+    console.log(b);
+});
+
+
+</script>
+
+</body>
+</html>
